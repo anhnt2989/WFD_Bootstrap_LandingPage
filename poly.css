@@ -1,0 +1,43 @@
+
+.navbar-collapse li {
+    margin-left: 70px;
+}
+
+
+.content-link {
+    font-size: large;
+}
+
+.content-text {
+    font-size: large;
+}
+
+
+.content-text, .content-link {
+    text-align: center;
+}
+
+
+.row {
+    float: top;
+    margin-top: 50px;
+    position: relative;
+}
+
+.mw-100 {
+    background-color: #fbfbfb;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: 10px;
+    display: block;
+}
+
+.glyphicon {
+    font-size: small;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
