@@ -12,11 +12,17 @@
     font-size: large;
 }
 
+.content-img {
+    margin-left: 10%;
+}
 
 .content-text, .content-link {
     text-align: center;
 }
-
+.content-text p {
+    width: 500px;
+    margin-left: 30%;
+}
 
 .row {
     float: top;
@@ -24,12 +30,14 @@
     position: relative;
 }
 
-.mw-100 {
+.content {
     background-color: #fbfbfb;
-    padding-bottom: 50px;
     padding-top: 30px;
     margin-top: 10px;
     display: block;
+}
+#content-header {
+    padding-bottom: 50px;
 }
 
 .glyphicon {
@@ -38,6 +46,6 @@
 
 @media (min-width: 1200px) {
     .container{
-        max-width: 970px;
+        min-width: 1350px;
     }
 }
