@@ -44,6 +44,10 @@
     font-size: small;
 }
 
+.fa-apple {
+    font-size: large;
+}
+
 @media (min-width: 1200px) {
     .container{
         min-width: 1350px;
